@@ -14,6 +14,8 @@
 		31749B1419D5F2610032C697 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31749B1319D5F2610032C697 /* Images.xcassets */; };
 		31749B1719D5F2610032C697 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 31749B1519D5F2610032C697 /* LaunchScreen.xib */; };
 		31749B2319D5F2610032C697 /* constraintTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 31749B2219D5F2610032C697 /* constraintTests.m */; };
+		31749B2D19D5F31B0032C697 /* IMG_0006.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 31749B2C19D5F31B0032C697 /* IMG_0006.jpg */; };
+		31749B2F19D603C30032C697 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31749B2E19D603C30032C697 /* CoreMedia.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,8 @@
 		31749B1C19D5F2610032C697 /* constraintTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = constraintTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		31749B2119D5F2610032C697 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		31749B2219D5F2610032C697 /* constraintTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = constraintTests.m; sourceTree = "<group>"; };
+		31749B2C19D5F31B0032C697 /* IMG_0006.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0006.jpg; sourceTree = "<group>"; };
+		31749B2E19D603C30032C697 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				31749B2F19D603C30032C697 /* CoreMedia.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +68,7 @@
 		31749AFA19D5F2600032C697 = {
 			isa = PBXGroup;
 			children = (
+				31749B2E19D603C30032C697 /* CoreMedia.framework */,
 				31749B0519D5F2610032C697 /* constraint */,
 				31749B1F19D5F2610032C697 /* constraintTests */,
 				31749B0419D5F2610032C697 /* Products */,
@@ -81,6 +87,7 @@
 		31749B0519D5F2610032C697 /* constraint */ = {
 			isa = PBXGroup;
 			children = (
+				31749B2C19D5F31B0032C697 /* IMG_0006.jpg */,
 				31749B0A19D5F2610032C697 /* AppDelegate.h */,
 				31749B0B19D5F2610032C697 /* AppDelegate.m */,
 				31749B0D19D5F2610032C697 /* ViewController.h */,
@@ -200,6 +207,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				31749B1219D5F2610032C697 /* Main.storyboard in Resources */,
+				31749B2D19D5F31B0032C697 /* IMG_0006.jpg in Resources */,
 				31749B1719D5F2610032C697 /* LaunchScreen.xib in Resources */,
 				31749B1419D5F2610032C697 /* Images.xcassets in Resources */,
 			);
@@ -412,6 +420,7 @@
 				31749B2819D5F2610032C697 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		31749B2919D5F2610032C697 /* Build configuration list for PBXNativeTarget "constraintTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +429,7 @@
 				31749B2B19D5F2610032C697 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
